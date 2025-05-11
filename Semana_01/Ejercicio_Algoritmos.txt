@@ -1,0 +1,71 @@
+Ejercicios semana 1:
+
+A.  Cree un algoritmo para ver un video en Youtube. Sea lo más especifico posible.
+
+RESPUESTA:
+
+1. Inicio
+2. Tomar un dispositivo inteligente que posea la aplicación youtube y acceso a internet
+3. Si el dispositivo está desactivado se debe activar
+    1. Si es un televisor, solamente encenderlo
+    2. Si es un teléfono inteligente, tablet o computadora se debe encender y desbloquear, con la clave correspondiente.
+4. Abrir la aplicación de Youtube en el dispositivo seleccionado
+5. Elegir un video para visualizar
+    1. Puede elegir un video del menú principal de recomendaciones
+    2. Puede realizar la búsqueda de un video mediante la herramienta de búsqueda y digitando palabras clave del video. Luego elegir de la lista desplegada en la búsqueda.
+    3. Si el video no está en el menú principal ni fue encontrado en la barra de búsqueda, entonces intentar una nueva búsqueda utilizando más palabras clave u otras palabras clave hasta encontrarlo.
+6. Una vez encontrado el video deseado, dar play y visualizar el video
+    1. Cada vez que alguien o algo interrumpe al usuario se debe pausar el video hasta que termine la interrupción y luego continuar con la visualización.
+    2. Cada vez que se despliegue un anuncio, saltarlo una vez concluido el tiempo mínimo de visualización del anuncio.
+    3. Continuar reproduciendo el video hasta que finalice o bien el usuario lo finalice antes de concluir.
+7. Si el usuario desea visualizar otro video, entonces regresar al punto 5. Sino, cerrar la aplicación de youtube.
+8. Desactivar el dispositivo mediante apagado o bloqueo de pantalla
+    1. En caso de ser una tablet, laptop o teléfono inteligente, regresarlo al lugar donde estaba en el punto 2.
+9. Fin
+
+B. Cree un algoritmo que describa su rutina diaria. Use condiciones, condiciones multiples y ciclos.
+
+RESPUESTA:
+
+1. Inicio
+2. Despertar con la alarma del teléfono
+    1. Si tengo mucho sueño, postergar la alarma hasta 5 min más. Repetir máximo 2 veces.
+    2. Despertar con la alarma del teléfono y apagarla.
+3. Preparaciones matutinas:
+    1. Ducharme
+    2. Despertar al hijo para que se bañe
+    3. Alistarme
+    4. Preparar desayuno de hijo
+    5. Preparar meriendas y almuerzos para escuela y trabajo. Hijo desayuna.
+    6. Revisar si hijo está bien vestido, si no entonces ayudarle a terminar
+    7. Peinar hijo
+    8. Peinarme
+    9. Cepillar dientes ambos
+    10. Llevar hijo a la escuela en carro
+    11. Desplazarme al trabajo en carro.
+4. Trabajar: Revisar correo y planificar actividades para el día
+5. Café de la mañana: si hay galletas comer galletas, sino comprar empanada en la soda de la esquina.
+6. Trabajar:
+    1. Si hay visita de proyectos
+    2. Sino realizar informes
+7. Almuerzo
+    1. Calentar almuerzo
+    2. Almorzar
+    3. Conversar
+    4. Lavar platos
+    5. Cepillar dientes
+8. Trabajar: Si hay reuniones asistir a ellas, sino realizar informes de proyecto, sino respuestas de correos, sino diseño de proyectos. Si suena el teléfono o se presentan personas para atención, se atiende hasta que acabe la llamada o se vaya la persona.
+9. Hora de salida
+    1. Si se tiene alguna actividad externa se va a la actividad
+    2. Sino se llama a la casa por si se necesita algo del super y se va al super
+    3. Se va a la casa
+10. Llega a la casa.
+    1. Si se llegó temprano hay cafecito
+11. Se alista la cena
+12. Se alista lo del día siguiente
+13. Cenar
+    1. Conversando o
+    2. Viendo TV
+14. Se recogen los platos y se lavan
+15. Cepillarse y a dormir
+16. Fin

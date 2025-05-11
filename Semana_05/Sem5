@@ -1,0 +1,10 @@
+my_favorite_songs = [
+    "a",
+    "b",
+    "c"
+]
+
+
+for song in my_favorite_songs:
+    print (song)
+
