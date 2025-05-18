@@ -1,0 +1,8 @@
+print("todo"+"chill")
+print("nota"+"100")
+print(1000,"veces")
+print([1,2,3]+[9,8,7])
+print(15.8+20)
+print(True + True)
+print("Esto"+"puede","ser","10")
+print(True+20)
