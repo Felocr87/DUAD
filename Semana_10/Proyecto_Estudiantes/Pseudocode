@@ -1,0 +1,30 @@
+
+PSEUDOCODIGO:
+
+0. Antes de todo, se debe realizar la importación de las funciones a utilizar y los módulos, así como la biblioteca de CSV.
+1. Se ingresa en el main() que ofrece la bienvenida y la opción de continuar o cerrar el programa. Se debe hacer una excepción general.
+2. Cuando se decide cerrar el programa se arroja mensaje de despedida.
+3. Si decide continuar, se despliega el menú mediante input para que el usuario ingrese un número de 1 a 6 (considerar excepción).
+4. El número ingresado debe permitir el ingreso a las diversas funciones del módulo menú.
+    4.1. Ingresar información de los estudiantes. Esto se conformará como una base de datos formada por una lista de diccionarios, en la variable "list_of_students_information" de main.
+    4.1.1. Cada varible se ingresará en el diccionario "new_student_information" de manera que al final se pueda realizar un chequeo de la información ingresada.
+    4.1.2. Crear las variables "student_average", "sum_of_averages", "amount_of_students" y "class_average", y realizar la inclusión de los correspondientes valores. Cálculos mediante funciones aparte. Revisar que las notas ingresadas sean de 0 a 100. Crear, además, una lista de diccionarios con los nombres y los promedios "list_averages_and_name"
+    4.1.3. Revisar con el diccionario "new_student_information" para corroborar la inforación ingresada (sí o no).
+    4.1.4. La información del diccionario "new_student_information" debe incluirse a "list_of_students_information".
+5. La información de todos los estudiantes puede ser revisada e impresa mediante la lista de diccionarios "list_of_students_information"
+6. A partir de la lista de diccionarios de los promedios de los estudiantes "list_averages_and_name" se realiza el acomodo de la lista de mayor a menor, donde se imprimirán los primeros tres valores.
+7. Calcular el valor promedio de los estudiantes que se tienen ingresados mediante "class_average" = "sum_of_averages" / "amount_of_students" e imprimir el resultado.
+8. Aplicar la función para exportar la base de datos a un archivo csv mediante las funciones de laq buiblioteca de csv
+9. Importar los datos del archivo csv. Se debe primero realizar la búsqueda del archivo csv en la carpeta de semana 10 e indicar si exciste o no. Una vez que se indique al usuario se debe abrir el documento, imprimirlo y guardarlo como la variable "list_of_students_information" para que toda la información ingresada se sume a estos datos.
+
+Cada vez que se cierra un proceso se debe regresar al menú nuevamente.
+
+PREGUNTAS:
+1) Es pertinente considerar una séptima opción para cerrar el programa?
+2) Cómo se pueden conservar las variables de cantidad de estudiantes y la suma de promedios una vez que se cierra el programa y se vuelve a abrir importando el documento CSV?
+
+
+
+{'Full name': '1', 'Class': '1', 'Spanish grade': 1, 'English grade': 1, 'Social studies grade': 1, 'Science grade': 1, 'Average grade': 1.0}
+{'Full name': '2', 'Class': '2', 'Spanish grade': 2, 'English grade': 2, 'Social studies grade': 2, 'Science grade': 2, 'Average grade': 2.0}
+{'Full name': '3', 'Class': '3', 'Spanish grade': 3, 'English grade': 3, 'Social studies grade': 3, 'Science grade': 3, 'Average grade': 3.0}
